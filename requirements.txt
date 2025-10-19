@@ -1,0 +1,16 @@
+# requirements.txt
+python-dotenv
+langchain==0.2.5
+langgraph==0.1.5
+langchain-core==0.2.9
+langchain_google_genai==1.0.6
+langchain_community==0.2.5
+tavily-python==0.3.3
+beautifulsoup4
+lxml
+# RAG dependencies
+chromadb==0.5.3
+pypdf==4.2.0
+# Frontend & Utilities
+streamlit==1.35.0
+tiktoken==0.7.0
