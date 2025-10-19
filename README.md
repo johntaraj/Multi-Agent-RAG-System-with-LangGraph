@@ -3,7 +3,7 @@
 try here : https://multi-agent-rag-system-with-langgraph.streamlit.app/
 
 
-<img width="1000" height="650" alt="image" src="https://github.com/user-attachments/assets/e99c22a7-589c-46ce-b335-af312c2f8451" />
+<img width="1000" height="800" alt="image" src="https://github.com/user-attachments/assets/ea83948c-4fd9-4ef8-934e-2a34c865fca9" />
 
 An AI-powered research and content generation assistant built with LangGraph/LangChain and Streamlit. The system orchestrates multiple specialized agents (Planner -> Researcher -> Prompt Augmentor -> Generator) to plan searches, gather context from the web, refine your request, and produce a final result. Debug outputs for each stage are written to `debug_output/` for transparency and troubleshooting.
 
