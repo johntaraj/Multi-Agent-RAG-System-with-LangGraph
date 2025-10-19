@@ -27,7 +27,7 @@ def should_continue(state: GraphState) -> str:
     """
     This is our main router. It decides the next step based on the state.
     """
-    # Use .get() to safely access the key, providing an empty list if it's missing.
+
     if state.get("questions_for_user"):
         return "ask_human"
     else:

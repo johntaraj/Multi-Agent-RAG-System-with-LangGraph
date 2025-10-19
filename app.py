@@ -107,7 +107,7 @@ for message in st.session_state.messages:
                         link = source.get("source", "Unknown source")
                         st.markdown(f"**{index}:** [{link}]({link})")
 
-# --- UI REDESIGN: File Uploader and Chat Input ---
+# Chat input area with file upload
 chat_input_container = st.container()
 with chat_input_container:
     st.markdown('<div class="chat-input-wrapper">', unsafe_allow_html=True)

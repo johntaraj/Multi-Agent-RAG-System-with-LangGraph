@@ -63,7 +63,7 @@ def _researcher_logic(state):
     user_files = state.get("user_file_paths", [])
     if user_files:
         # RAG logic here...
-        pass # For brevity, assuming RAG logic is correct
+        pass 
     return {"context_documents": context_documents}
 
 def _augmentor_logic(state, model_name):
